@@ -1,5 +1,5 @@
-import { createStore, Store, combineReducers } from 'redux';
-import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux';
+import { createStore, type Store, combineReducers } from 'redux';
+import { type TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux';
 
 import { todosReducer } from '../features/todos/store/reducer';
 
