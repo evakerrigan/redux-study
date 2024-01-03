@@ -2,12 +2,10 @@ import { FC, useState } from 'react';
 
 import styles from './TodoForm.module.css';
 
-//import { Button } from '../../../components/Button';
-//import { Button } from '@/components/Button';
-//import { Button } from '@/components/Button/Button.tsx';
+import { Button } from '@/components/Button';
 
 import { useAppDispatch } from '@/store/store';
-import { addTodo } from '../../store/actions';
+import { addTodo } from '@/features/todos/store/actions';
 
 export const TodoForm: FC = () => {
   const [text, setText] = useState('');

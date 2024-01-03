@@ -18,3 +18,8 @@ body {
 #root {
   @apply h-full;
 }
+
+body {
+  background-color: #000;
+  color: #fff;
+}

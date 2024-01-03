@@ -1,12 +1,12 @@
 import { FC } from 'react';
 
-import { useAppDispatch } from '../../store';
+import { useAppDispatch } from '@/store/store';
 import { removeTodo, toggleTodo } from '../../store/actions';
 
 import styles from './TodosListItem.module.css';
 
 //import { ButtonRemove } from '../../../components/ButtonRemove';
-import { ButtonRemove } from '../../../components/ButtonRemove/ButtonRemove.tsx';
+import { ButtonRemove } from '@/components/ButtonRemove';
 import { Todo } from '../../types';
 
 type Props = {
