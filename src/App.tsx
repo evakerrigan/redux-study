@@ -2,7 +2,7 @@ import { FC } from 'react';
 
 import styles from './App.module.css';
 
-import { Todos } from '@/features/todos';
+import { Todos } from './features/todos';
 
 const App: FC = () => {
   return (
